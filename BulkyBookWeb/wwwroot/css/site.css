@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #6cf;
+}
+
+nav ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-flex;
+    flex: 1 1 25%;
+    position: relative;
+    padding: 0 10px;
+}
